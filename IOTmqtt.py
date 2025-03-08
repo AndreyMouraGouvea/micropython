@@ -15,7 +15,7 @@ mqtt_client_id      = bytes('client_'+'12321', 'utf-8') # Just a random client I
 
 ADAFRUIT_IO_URL     = 'io.adafruit.com' 
 ADAFRUIT_USERNAME   = 'AndreyMouraGouvea'
-ADAFRUIT_IO_KEY     = 'aio_eevn91f81lh7aL2tVuzulxk8w7Mr'
+ADAFRUIT_IO_KEY     = 'key'
 
 TOGGLE_FEED_ID      = 'welcome-feed'
 

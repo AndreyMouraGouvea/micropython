@@ -7,14 +7,14 @@ import dht
 
 sensor = dht.DHT11(Pin(4))                  # DHT11 Sensor on Pin 4 of ESP32
 
-WIFI_SSID     = 'ANDREY_UPNET'
-WIFI_PASSWORD = '18562097'
+WIFI_SSID     = '**'
+WIFI_PASSWORD = '**'
 
 mqtt_client_id      = bytes('client_'+'12321', 'utf-8') # Just a random client ID
 
 ADAFRUIT_IO_URL     = 'io.adafruit.com' 
 ADAFRUIT_USERNAME   = 'AndreyMouraGouvea'
-ADAFRUIT_IO_KEY     = 'aio_eevn91f81lh7aL2tVuzulxk8w7Mr'
+ADAFRUIT_IO_KEY     = 'key'
 
 TEMP_FEED_ID      = 'temp'
 HUM_FEED_ID      = 'hum'
